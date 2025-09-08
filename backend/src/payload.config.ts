@@ -22,6 +22,8 @@ export default buildConfig({
   cors: [
     'http://localhost:3000',
     'https://localhost:3000',
+    'http://localhost:3001',
+    'https://localhost:3001',
     process.env.FRONTEND_URL || '',
   ].filter(Boolean),
   csrf: [
